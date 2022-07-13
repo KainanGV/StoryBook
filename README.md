@@ -1,7 +1,9 @@
 ## Conveções
 
 ## Sass
-- Folhas de estilos, capazes de criar funções, variáveis e imports de SCSS
+- CSS with superpowers
+- São pré-processadores ou compiladores de CSS, que a partir de uma sintaxe são capazes de gerar outra sintaxe
+- (scss, sass), a primeira é mais próxima do CSS
 
 ## BEM
 - Convenção para nomes
