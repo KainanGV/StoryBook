@@ -4,11 +4,13 @@
 - CSS with superpowers
 - São pré-processadores ou compiladores de CSS, que a partir de uma sintaxe são capazes de gerar outra sintaxe
 - (scss, sass), a primeira é mais próxima do CSS
+- sass --watch style.scss:css/styles.css, compilar o arquivo
 
 ## BEM
 - Convenção para nomes
 - Fácil de usar ajuda na legibilidade do código e na sua organização
 - Bem, vem de bloco(footer, header, checkbox), elemento(element-filho esta vinculado ao seu bloco) e modificador(variante de um bloco ou elemento, ex: disabled, checked)
+- Exemplo: .menu(block), .menu__item ou menu__link(elemento), modificador ou variantes .menu--dark, menu__item--disabled
 
 ## Parcel
 - Ferramenta para criação de configuração do zero de Sass, Js, CSS, HTML etc..
@@ -25,3 +27,5 @@
 - is-/has, está ou é, estado ou dado uma condição. is-open
 - js-, desenvolvimento em camadas, (HTML, CSS, JavaScript), js-main-menu, para manipularmos este via JS
 - qa-, para auxiliar os QA
+
+## ITCSS

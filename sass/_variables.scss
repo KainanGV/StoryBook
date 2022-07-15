@@ -1,0 +1,16 @@
+$primary-color: #1f1f;
+$secondary-color: #20C997;
+
+@mixin container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin test($t) {
+  background-color: black;
+  width: 100px;
+  height: 100px;  
+  
+  border-radius: $t;
+}
