@@ -1,0 +1,86 @@
+.button_primary_large {
+  outline: none;
+  border-radius: 4px;
+  background-color: #025584;
+  color: #FFF;
+  font-family: "Open Sans";
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+  min-width: 229px;
+  height: 56px;
+}
+.button_primary_large:hover {
+  height: 56px;
+  outline: none;
+  border-radius: 4px;
+  background-color: #013B6B;
+}
+.button_primary_large:active {
+  height: 56px;
+  outline: none;
+  border-radius: 4px;
+  background-color: #013B6B;
+}
+.button_primary_large:disabled {
+  background: #ccc;
+}
+
+.button_primary_large_light_primary4 {
+  outline: none;
+  border-radius: 4px;
+  background-color: #025584;
+  color: #FFF;
+  font-family: "Open Sans";
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+  line-height: 24px;
+  min-width: 229px;
+  height: 56px;
+}
+
+.c-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-container::before embed {
+  position: absolute;
+  color: #fff;
+}
+
+.button_primary_medium {
+  outline: none;
+  border-radius: 4px;
+  background-color: #025584;
+  color: #FFF;
+  font-family: "Open Sans";
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+  min-width: 250px;
+  height: 48px;
+}
+
+.button_primary_small {
+  outline: none;
+  border-radius: 4px;
+  background-color: #025584;
+  color: #FFF;
+  font-family: "Open Sans";
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 20px;
+  min-width: 216px;
+  height: 36px;
+}
+
+/*# sourceMappingURL=style.css.map */
